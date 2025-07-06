@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>HAFIXDO | Industrial Refrigeration</title>
+        <style>
+            body {
+                      margin: 0;
+                            font-family: Arial, sans-serif;
+                                  background-color: #0b0b0b;
+                                        color: #f0f0f0;
+            }
+
+                header {
+                          background-color: #000;
+                                padding: 10px 20px;
+                                      display: flex;
+                                            align-items: center;
+                                                  justify-content: space-between;
+                }
+
+                    header img {
+                              height: 60px;
+                    }
+
+                        .menu-container {
+                                  position: relative;
+                        }
+
+                            .menu-icon {
+                                      font-size: 24px;
+                                            cursor: pointer;
+                                                  padding: 10px;
+                                                        color: #f0f0f0;
+                            }
+
+                                .dropdown {
+                                          display: none;
+                                                position: absolute;
+                                                      top: 40px;
+                                                            right: 0;
+                                                                  background-color: #111;
+                                                                        border: 1px solid #333;
+                                                                              border-radius: 6px;
+                                                                                    min-width: 160px;
+                                                                                          z-index: 1000;
+                                }
+
+                                    .dropdown a {
+                                              display: block;
+                                                    padding: 12px 16px;
+                                                          color: #f0f0f0;
+                                                                text-decoration: none;
+                                    }
+
+                                        .dropdown a:hover {
+                                                  background-color: #222;
+                                        }
+
+                                            .menu-container:hover .dropdown {
+                                                      display: block;
+                                            }
+
+                                                .hero {
+                                                          text-align: center;
+                                                                padding: 40px 20px;
+                                                }
+
+                                                    .hero img {
+                                                              max-width: 100%;
+                                                                    height: auto;
+                                                    }
+
+                                                        .section {
+                                                                  padding: 40px 20px;
+                                                                        max-width: 900px;
+                                                                              margin: auto;
+                                                        }
+
+                                                            .product {
+                                                                      display: flex;
+                                                                            flex-direction: column;
+                                                                                  align-items: center;
+                                                                                        margin-bottom: 40px;
+                                                            }
+
+                                                                .product img {
+                                                                          width: 300px;
+                                                                                border-radius: 8px;
+                                                                                      margin-bottom: 15px;
+                                                                                            border: 4px solid #001f3f;
+                                                                }
+
+                                                                    .footer {
+                                                                              background-color: #111;
+                                                                                    padding: 30px 20px;
+                                                                                          text-align: center;
+                                                                                                font-size: 14px;
+                                                                                                      color: #ccc;
+                                                                    }
+
+                                                                        h2 {
+                                                                                  color: #00bfff;
+                                                                        }
+
+                                                                            .testimonials blockquote {
+                                                                                      background-color: #111;
+                                                                                            padding: 15px;
+                                                                                                  border-left: 4px solid #00bfff;
+                                                                                                        margin: 15px 0;
+                                                                            }
+
+                                                                                .faq q {
+                                                                                          display: block;
+                                                                                                font-weight: bold;
+                                                                                                      margin-top: 20px;
+                                                                                }
+                                                                                  </style>
+                                                                                  </head>
+                                                                                  <body>
+                                                                                    <header>
+                                                                                        <img src="https://i.imgur.com/XzBF8tg.jpeg" alt="HAFIXDO Logo" />
+                                                                                            <div class="menu-container">
+                                                                                                  <div class="menu-icon">⋮</div>
+                                                                                                        <div class="dropdown">
+                                                                                                                <a href="https://t.me/BoozDealer" target="_blank">Telegram Channel</a>
+                                                                                                                        <a href="https://instagram.com/Hafixdo" target="_blank">Instagram Page</a>
+                                                                                                                                <a href="#">Visit Our Showroom</a>
+                                                                                                                                      </div>
+                                                                                                                                          </div>
+                                                                                                                                            </header>
+
+                                                                                                                                              <div class="hero">
+                                                                                                                                                  <h1>Welcome to HAFIXDO</h1>
+                                                                                                                                                      <p>Reliable Industrial Refrigeration at Fair Prices</p>
+                                                                                                                                                        </div>
+
+                                                                                                                                                          <div class="section">
+                                                                                                                                                              <h2>Our Products</h2>
+
+                                                                                                                                                                  <div class="product">
+                                                                                                                                                                        <img src="https://i.imgur.com/DTJsyaa.png" alt="Chest Fridge" />
+                                                                                                                                                                              <h3>Chest Fridge</h3>
+                                                                                                                                                                                    <p>Heavy-duty chest freezer with sleek black finish and signature HAFIXDO branding. Ideal for commercial storage with robust performance.</p>
+                                                                                                                                                                                        </div>
+
+                                                                                                                                                                                            <div class="product">
+                                                                                                                                                                                                  <img src="https://i.imgur.com/0pXQAfu.png" alt="Drink Cooler" />
+                                                                                                                                                                                                        <h3>Drink Cooler</h3>
+                                                                                                                                                                                                              <p>Equipped with Embraco engine, digital condenser, and 1.4L engine capacity. Perfect for cafes and supermarkets.</p>
+                                                                                                                                                                                                                  </div>
+                                                                                                                                                                                                                    </div>
+
+                                                                                                                                                                                                                      <div class="section">
+                                                                                                                                                                                                                          <h2>Our Process</h2>
+                                                                                                                                                                                                                              <p>All orders take approximately <strong>one week</strong> to prepare. In some cases, delivery may happen sooner.</p>
+                                                                                                                                                                                                                                  <p>We do not accept checks. Payments are made in <strong>cash only</strong>, with 50% paid at purchase and the remaining 50% upon delivery.</p>
+                                                                                                                                                                                                                                    </div>
+
+                                                                                                                                                                                                                                      <div class="section testimonials">
+                                                                                                                                                                                                                                          <h2>What Our Customers Say</h2>
+                                                                                                                                                                                                                                              <blockquote>
+                                                                                                                                                                                                                                                    “We got a chest freezer from HAFIXDO for our supermarket. It’s solid, quiet, and looks great. Delivery was on time.” — <strong>Reza, Supermarket Owner</strong>
+                                                                                                                                                                                                                                                        </blockquote>
+                                                                                                                                                                                                                                                            <blockquote>
+                                                                                                                                                                                                                                                                  “The drink cooler we got is perfect for our coffee shop. It chills fast and takes little space. Highly recommended!” — <strong>Sara, Café Manager</strong>
+                                                                                                                                                                                                                                                                      </blockquote>
+                                                                                                                                                                                                                                                                          <blockquote>
+                                                                                                                                                                                                                                                                                “Ali and the HAFIXDO team were helpful from day one. Honest prices, no surprises. I’ll be ordering again.” — <strong>Mohammad, Warehouse Manager</strong>
+                                                                                                                                                                                                                                                                                    </blockquote>
+                                                                                                                                                                                                                                                                                      </div>
+
+                                                                                                                                                                                                                                                                                        <div class="section faq">
+                                                                                                                                                                                                                                                                                            <h2>FAQ – Frequently Asked Questions</h2>
+                                                                                                                                                                                                                                                                                                <q>How long does it take to receive my order?</q>
+                                                                                                                                                                                                                                                                                                    <p>Most orders are ready within approximately one week. In some cases, next-day delivery may be possible.</p>
+
+                                                                                                                                                                                                                                                                                                        <q>Do you offer delivery?</q>
+                                                                                                                                                                                                                                                                                                            <p>Yes, delivery is available but not included in the product price. Customers can also use apps like Snapp or eBay shipping.</p>
+
+                                                                                                                                                                                                                                                                                                                <q>Can I request a custom size or design?</q>
+                                                                                                                                                                                                                                                                                                                    <p>We don’t offer custom sizes, but you can customize the design and branding (HAFIXDO logo will be included).</p>
+
+                                                                                                                                                                                                                                                                                                                        <q>Do your products come with a warranty?</q>
+                                                                                                                                                                                                                                                                                                                            <p>Yes, all parts come with a one-year warranty. Compressor is not included in the warranty.</p>
+
+                                                                                                                                                                                                                                                                                                                                <q>What payment methods do you accept?</q>
+                                                                                                                                                                                                                                                                                                                                    <p>We accept <strong>cash only</strong>. You pay half up front, half on delivery.</p>
+                                                                                                                                                                                                                                                                                                                                      </div>
+
+                                                                                                                                                                                                                                                                                                                                        <div class="section">
+                                                                                                                                                                                                                                                                                                                                            <h2>Industries We Serve</h2>
+                                                                                                                                                                                                                                                                                                                                                <ul>
+                                                                                                                                                                                                                                                                                                                                                      <li>Supermarkets & grocery stores</li>
+                                                                                                                                                                                                                                                                                                                                                            <li>Cafés and restaurants</li>
+                                                                                                                                                                                                                                                                                                                                                                  <li>Industrial kitchens and catering services</li>
+                                                                                                                                                                                                                                                                                                                                                                        <li>Warehouses and food distributors</li>
+                                                                                                                                                                                                                                                                                                                                                                            </ul>
+                                                                                                                                                                                                                                                                                                                                                                              </div>
+
+                                                                                                                                                                                                                                                                                                                                                                                <div class="section">
+                                                                                                                                                                                                                                                                                                                                                                                    <h2>Maintenance Tips</h2>
+                                                                                                                                                                                                                                                                                                                                                                                        <ul>
+                                                                                                                                                                                                                                                                                                                                                                                              <li>Keep at least 15 cm between the fridge and the wall for airflow.</li>
+                                                                                                                                                                                                                                                                                                                                                                                                    <li>Clean the condenser coils every 3–6 months.</li>
+                                                                                                                                                                                                                                                                                                                                                                                                          <li>Do not overload shelves to maintain cold air circulation.</li>
+                                                                                                                                                                                                                                                                                                                                                                                                                <li>Defrost the unit regularly if it is not frost-free.</li>
+                                                                                                                                                                                                                                                                                                                                                                                                                    </ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                      </div>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="section">
+                                                                                                                                                                                                                                                                                                                                                                                                                            <h2>Partner With Us</h2>
+                                                                                                                                                                                                                                                                                                                                                                                                                                <p>Want to place a wholesale order or become a HAFIXDO reseller? Contact us directly on Telegram at <strong>@HAFIXDO</strong> to discuss opportunities.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                  </div>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                    <div class="section">
+                                                                                                                                                                                                                                                                                                                                                                                                                                        <h2>Contact Us</h2>
+                                                                                                                                                                                                                                                                                                                                                                                                                                            <p><strong>Telegram Support:</strong> <a href="https://t.me/HAFIXDO" target="_blank">@HAFIXDO</a></p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                <p><strong>Business Hours:</strong> 9:00 AM – 5:00 PM (Saturday to Thursday)</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                  </div>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    <div class="footer">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        <p><strong>About HAFIXDO</strong><br>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                              Established in 2025 by Ali Fallah Banadkooki, HAFIXDO is committed to delivering high-quality industrial refrigeration solutions at fair and competitive prices. Built on a foundation of reliability and customer satisfaction, HAFIXDO is the smart choice for businesses seeking performance, durability, and value.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </body>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </html>
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
